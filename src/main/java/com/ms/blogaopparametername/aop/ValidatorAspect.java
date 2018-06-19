@@ -51,8 +51,7 @@ public class ValidatorAspect {
     }
 
     /**
-     * 객체에 joinPoint 적용 (해당코드를 실행시킬 떄는
-     * BlogAopParameterNameApplication에서 logic(), logic2(), logic3()은 주석 처리해주세요)
+     * 객체에 joinPoint 적용
      */
     /*@Before("accountValidator()")
     public void validateAccount(JoinPoint joinPoint) {
